@@ -1,0 +1,30 @@
+.Tab {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    border-collapse: collapse;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*.tab-row {
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
+}*/
+
+.Bar {
+    /*border-top: 2px solid red;*/
+    border-bottom: 2px solid red;
+    display: inline-block;
+}
+
+.vl {
+    background-color: black;
+}
+
+.Note {
+    width: 10px;
+}
+
+.string {
+    border: none;
+}
