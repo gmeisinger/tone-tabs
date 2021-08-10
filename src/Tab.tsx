@@ -57,7 +57,7 @@ class Bar extends React.Component {
 }
 
 // a tab could be a tr that uses display: grid
-export default class Tab extends React.Component {
+class Tab extends React.Component {
 
     render() {
         const bars = [];
@@ -73,6 +73,17 @@ export default class Tab extends React.Component {
                     </tr>
                 </tbody>
             </table>
+        );
+    }
+}
+
+export default class TabContainer extends React.Component {
+
+    render() {
+        return (
+            <div className="TabContainer">
+                <Tab numBars={this.props.numBars} />
+            </div>
         );
     }
 }

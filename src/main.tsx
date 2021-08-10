@@ -2,11 +2,13 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './css/style.css'
 import App from './App'
-import Tab from './Tab'
+import TabContainer from './Tab'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Tab numBars="12"/>
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <h1>Tone Tabs</h1>
+        <h3>George Meisinger</h3>
+        <TabContainer numBars="12"/>
+    </React.StrictMode>,
+    document.getElementById('root')
 )
